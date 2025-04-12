@@ -8,8 +8,7 @@ def length_converter(value, choice):
 
 def weight_converter(value, choice):
     if choice == "Kilograms to Pounds":
-        return f"{value} kg is {value * 2.20462} pounds"python -m streamlit run unit-converter.py
-
+        return f"{value} kg is {value * 2.20462} pounds"
     elif choice == "Pounds to Kilograms":
         return f"{value} pounds is {value * 0.453592} kg"
 
